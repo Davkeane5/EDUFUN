@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .writer-image-container {
+        @apply relative w-48 h-48 bg-white rounded-full shadow-lg mb-4;
+    }
+}
